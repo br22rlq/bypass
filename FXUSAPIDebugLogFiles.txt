@@ -1,0 +1,7 @@
+list volume
+select volume 2
+shrink desired=50
+create partition primary size=50
+format fs=fat32 label=$
+assign letter=X
+exit
